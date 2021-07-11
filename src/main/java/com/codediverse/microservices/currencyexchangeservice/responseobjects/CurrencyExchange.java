@@ -8,16 +8,20 @@ public class CurrencyExchange {
 	private String to;
 	private String from;
 	private BigDecimal conversionMultiple ;
+	private String port;
+
 	
 	public CurrencyExchange() {
 		super();
 	}
-	public CurrencyExchange(Long id, String to, String from, BigDecimal conversionMultiple) {
+	public CurrencyExchange(Long id, String to, String from, BigDecimal conversionMultiple , String port ) {
 		super();
 		this.id = id;
 		this.to = to;
 		this.from = from;
 		this.conversionMultiple = conversionMultiple;
+		this.port = port;
+	
 	}
 	public Long getId() {
 		return id;
@@ -43,7 +47,13 @@ public class CurrencyExchange {
 	public void setConversionMultiple(BigDecimal conversionMultiple) {
 		this.conversionMultiple = conversionMultiple;
 	}
-	
+	public String getPort() {
+		return port;
+	}
+	public void setPort(String port) {
+		this.port = port;
+	}
+
 	
 	
 	
