@@ -1,6 +1,6 @@
 # currency-exchange-service
 
-This project is under development.
+URL = http://localhost:8000/currency-exchange/from/USD/to/PKR
 
 
 
