@@ -2,6 +2,7 @@
 
 URL = http://localhost:8000/currency-exchange/from/USD/to/PKR
 
+1) you can test the following project by above url.
 
 
 
